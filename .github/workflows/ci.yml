@@ -1,0 +1,11 @@
+on:
+  pull_request:
+    branches:
+    - main
+jobs:
+  test:
+    name: Test of bundlesize
+    runs-on: ubuntu-latest
+    steps:
+    - name: Bundle size diff    
+      uses: NejcZdovc/bundle-size-diff@v1.1.0
