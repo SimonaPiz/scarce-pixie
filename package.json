@@ -32,12 +32,6 @@
     "webpack-bundle-analyzer": "^2.13.1", 
     "bundlesize": "^0.17.0"
  },
-  "engines": {
-    "node": "8.11.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/#!/project/welcome-project"
-  },
   "license": "MIT",
   "keywords": [
     "node",
